@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="xaml.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,6,0">
+        <FlipView HorizontalAlignment="Left" Margin="263,534,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:ConnectionId='1' HorizontalAlignment="Left" Margin="56,126,0,0" Text="Ime" VerticalAlignment="Top" Height="50" Width="403"                                   AcceptsReturn="False" FontStyle="Italic" FontSize="18" Background="#66FFFFFF"/>
+        <TextBox x:ConnectionId='2' HorizontalAlignment="Left" Margin="56,195,0,0" Text="Prezime" VerticalAlignment="Top" Height="50" Width="403"                                   AcceptsReturn="True" FontStyle="Italic" FontSize="18"/>
+        <TextBox x:ConnectionId='3' HorizontalAlignment="Left" Margin="56,270,0,0" Text="e-mail" VerticalAlignment="Top" Height="50" Width="403"                                   AcceptsReturn="True" FontStyle="Italic" FontSize="18"/>
+        <TextBox x:ConnectionId='4' HorizontalAlignment="Left" Margin="56,349,0,0" Text="Telefon" VerticalAlignment="Top" Height="50" Width="403"                                   AcceptsReturn="True" FontStyle="Italic" FontSize="18"/>
+        <TextBox x:ConnectionId='5' HorizontalAlignment="Left" Margin="528,180,0,0" Text="Broj sobe" VerticalAlignment="Top" Height="50" Width="403"                                   AcceptsReturn="True" FontStyle="Italic" FontSize="18"/>
+        <DatePicker HorizontalAlignment="Left" Margin="632,279,0,0" VerticalAlignment="Top"/>
+        <DatePicker HorizontalAlignment="Left" Margin="635,323,0,0" VerticalAlignment="Top"/>
+        <Button Content="Registruj" HorizontalAlignment="Left" Margin="518,470,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Width="158"/>
+        <TextBox HorizontalAlignment="Left" Margin="406,59,0,0" Text="Prijava gosta hotela" VerticalAlignment="Top" FontSize="22" FontStyle="Italic" FontWeight="Bold"/>
+
+    </Grid>
+</Page>
+
