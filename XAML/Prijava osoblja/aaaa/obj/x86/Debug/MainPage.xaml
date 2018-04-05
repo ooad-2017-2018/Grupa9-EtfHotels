@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="aaaa.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:aaaa"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="10,0,0,115">
+        <RadioButton x:ConnectionId='1' Content="Recepcionar" HorizontalAlignment="Left" Margin="203,136,0,0" VerticalAlignment="Top"                               FontSize="20"/>
+        <RadioButton Content="Šef" HorizontalAlignment="Left" Margin="707,136,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Margin="373,29,0,0" Text="Prijava osoblja" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Italic" FontSize="36" IsColorFontEnabled="False"/>
+        <TextBox HorizontalAlignment="Left" Margin="256,221,0,0" Text="e-mail" VerticalAlignment="Top" FontSize="20" Height="49" Width="494" TextAlignment="Center"/>
+        <TextBox HorizontalAlignment="Left" Margin="256,310,0,0" Text="password" VerticalAlignment="Top" FontSize="20" Height="45" Width="494" TextAlignment="Center"/>
+        <Button HorizontalAlignment="Left" Margin="412,433,0,0" VerticalAlignment="Top" Height="48" Width="196" Content="Prijavi se" FontSize="22" FontWeight="Bold" FontStyle="Italic"/>
+
+    </Grid>
+</Page>
+
