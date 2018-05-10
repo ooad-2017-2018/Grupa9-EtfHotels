@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Prognoza" />
+    <RootPropertyPathName Name="Lokacija" />
+    <RootPropertyPathName Name="Izlaz" />
+    <RootPropertyPathName Name="SpremiOcjenu" />
+    <RootPropertyPathName Name="Ocjene" />
+    <RootPropertyPathName Name="IzabranaOcjena" />
+    <RootPropertyPathName Name="OcijeniRRenting" />
+    <RootPropertyPathName Name="Dodaj" />
+    <RootPropertyPathName Name="TrenutnaLokacija" />
+    <RootPropertyPathName Name="Adresa" />
+    <RootPropertyPathName Name="LoginUposlenik" />
+    <RootPropertyPathName Name="UnosID" />
+    <RootPropertyPathName Name="LoginGost" />
+    <RootPropertyPathName Name="UnosMail" />
+    <RootPropertyPathName Name="PrikaziZahtjeve" />
+    <RootPropertyPathName Name="ListaSoba" />
+    <RootPropertyPathName Name="IzabranaSoba" />
+    <RootPropertyPathName Name="SpasiPromjene" />
+    <RootPropertyPathName Name="Obavljeno" />
+    <RootPropertyPathName Name="MyItemsSource" />
+    <RootPropertyPathName Name="IzabraniZahtjevSobe" />
+    <RootPropertyPathName Name="PotvrdaUplate" />
+    <RootPropertyPathName Name="CreateUplata" />
+    <RootPropertyPathName Name="RfidKartica" />
+    <RootPropertyPathName Name="AzurirajSobe" />
+    <RootPropertyPathName Name="IzvrsiUplatu" />
+    <RootPropertyPathName Name="DodajGost" />
+    <RootPropertyPathName Name="DodajRezervaciju" />
+    <RootPropertyPathName Name="Odlazak" />
+    <RootPropertyPathName Name="Dolazak" />
+    <RootPropertyPathName Name="Placanje" />
+    <RootPropertyPathName Name="IzabraniNacin" />
+    <RootPropertyPathName Name="Krevet" />
+    <RootPropertyPathName Name="Parking" />
+    <RootPropertyPathName Name="Ljubimac" />
+    <RootPropertyPathName Name="BrojDjece" />
+    <RootPropertyPathName Name="BrojOdraslih" />
+    <RootPropertyPathName Name="Statistika" />
+    <RootPropertyPathName Name="Uposlenici" />
+    <RootPropertyPathName Name="Sobe" />
+    <RootPropertyPathName Name="SignupKorisnika" />
+    <RootPropertyPathName Name="UAdresa" />
+    <RootPropertyPathName Name="UTelefon" />
+    <RootPropertyPathName Name="UEmail" />
+    <RootPropertyPathName Name="UPrezime" />
+    <RootPropertyPathName Name="UIme" />
+    <RootPropertyPathName Name="Sifra" />
+    <RootPropertyPathName Name="Email" />
+    <RootPropertyPathName Name="Telefon" />
+    <RootPropertyPathName Name="Prezime" />
+    <RootPropertyPathName Name="Ime" />
+    <RootPropertyPathName Name="Signup" />
+    <RootPropertyPathName Name="Login" />
+    <RootPropertyPathName Name="cijena" />
+    <RootPropertyPathName Name="dodatniKrevet" />
+    <RootPropertyPathName Name="parking" />
+    <RootPropertyPathName Name="ljubimac" />
+    <RootPropertyPathName Name="datumOdlaska" />
+    <RootPropertyPathName Name="datumDolaska" />
+    <RootPropertyPathName Name="brojDjece" />
+    <RootPropertyPathName Name="brojOdraslih" />
+    <RootPropertyPathName Name="RezervisaniDatumi" />
+    <RootPropertyPathName Name="Status" />
+    <RootPropertyPathName Name="BrojKreveta" />
+    <RootPropertyPathName Name="CijenaSobe" />
+    <RootPropertyPathName Name="BrojSobe" />
+    <RootPropertyPathName Name="SobeOpis" />
+    <RootPropertyPathName Name="OsobljeOpis" />
+    <RootPropertyPathName Name="DodajZahtjev" />
+    <RootPropertyPathName Name="Zahtjev4" />
+    <RootPropertyPathName Name="Zahtjev3" />
+    <RootPropertyPathName Name="Zahtjev2" />
+    <RootPropertyPathName Name="Zahtjev1" />
+    <RootPropertyPathName Name="obavljenZahtjev" />
+    <RootPropertyPathName Name="brojSobe" />
+    <RootPropertyPathName Name="nazivZahtjeva" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application">
+      <RootProperty Name="RequestedTheme" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Resources" />
+      <RootProperty Name="Transitions" />
+      <RootProperty Name="Height" />
+      <RootEvent Name="Loaded" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="ColumnDefinitions" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Children" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Background" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Name" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Name" />
+      <RootProperty Name="CommandParameter" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="FontStyle" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Template" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Path" />
+      <RootProperty Name="UpdateSourceTrigger" />
+      <RootProperty Name="Mode" />
+      <RootProperty Name="ElementName" />
+      <RootProperty Name="Converter" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListBox">
+      <RootProperty Name="Name" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="RRentingProjekat.RRentingBaza.Views.GostView" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Text" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Inlines" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="FontStyle" />
+      <RootProperty Name="Name" />
+      <RootProperty Name="SelectionHighlightColor" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Maps.MapControl">
+      <RootProperty Name="Center" />
+    </RootType>
+    <RootType FullName="RRentingProjekat.RRentingBaza.Views.GPSView" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Name" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="IsReadOnly" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">
+      <RootProperty Name="Name" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
+      <RootProperty Name="Name" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="IsChecked" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="FontStyle" />
+      <RootProperty Name="FontSize" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
+      <RootProperty Name="Color" />
+    </RootType>
+    <RootType FullName="RRentingProjekat.RRentingBaza.Views.Login" />
+    <RootType FullName="Windows.UI.Xaml.Documents.Run">
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Text" />
+    </RootType>
+    <RootType FullName="RRentingProjekat.RRentingBaza.Views.OsobljeView" />
+    <RootType FullName="RRentingProjekat.RRentingBaza.Views.PlacanjeView" />
+    <RootType FullName="RRentingProjekat.RRentingBaza.Views.RecepcionerView" />
+    <RootType FullName="RRentingProjekat.RRentingBaza.Helper.DateConverter" />
+    <RootType FullName="Windows.UI.Xaml.Controls.DatePicker">
+      <RootProperty Name="Name" />
+      <RootProperty Name="Date" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="RRentingProjekat.RRentingBaza.Views.RezervacijaView" />
+    <RootType FullName="RRentingProjekat.RRentingBaza.Views.SefView" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.NavigationThemeTransition" />
+    <RootType FullName="RRentingProjekat.RRentingBaza.Views.SignupKorisnik" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="Name" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="RRentingProjekat.RRentingBaza.Views.KorisnikListView" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="RRentingProjekat.RRentingBaza.Views.Pocetna" />
+    <RootType FullName="RRentingProjekat.RRentingBaza.Views.RezervacijaListView" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ListBoxItem">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="RRentingProjekat.RRentingBaza.Views.SobaListView" />
+    <RootType FullName="WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Series" />
+    </RootType>
+    <RootType FullName="WinRTXamlToolkit.Controls.DataVisualization.Charting.PieSeries">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="IndependentValuePath" />
+      <RootProperty Name="DependentValuePath" />
+      <RootProperty Name="IsSelectionEnabled" />
+    </RootType>
+    <RootType FullName="RRentingProjekat.RRentingBaza.Views.Statistika" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootMethod Name="GetVerticalScrollBarVisibility" />
+      <RootMethod Name="SetVerticalScrollBarVisibility" />
+      <RootMethod Name="GetVerticalScrollMode" />
+      <RootMethod Name="SetVerticalScrollMode" />
+    </RootType>
+    <RootType FullName="RRentingProjekat.RRentingBaza.Views.UvidSobaView" />
+    <RootType FullName="RRentingProjekat.RRentingBaza.Views.UvidUposlenikaView" />
+    <RootType FullName="RRentingProjekat.RRentingBaza.Views.VremenskaPrognoza" />
+    <RootType FullName="Windows.UI.Xaml.Controls.GridView">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="BorderBrush" />
+    </RootType>
+    <RootType FullName="RRentingProjekat.RRentingBaza.Views.ZahtjeviView" />
+    <RootType FullName="RRentingProjekat.RRentingBaza.Views.ZahtjevListView" />
+  </Roots.RootTypes>
+</Roots>
